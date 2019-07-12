@@ -1,10 +1,12 @@
 import React from "react"
 
 import LogoCubo from "../../objects/logoCubo"
+import MenuCubo from "../MenuCubo"
 
 const HeaderCubo = () => (
-  <header>
+  <header className="header-cubo">
     <LogoCubo />
+    <MenuCubo />
   </header>
 )
 
